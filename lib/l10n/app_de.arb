@@ -1,0 +1,28 @@
+{
+    "app_title":"Arabisch Konvertierer",
+    "about_text1":"Dieser Konvertierer ist ein Werkzeug, das hilft arabischen Text zu schreiben", 
+    "about_text2":"Hilfe kann im Menu gefunden werden",
+    "about_text3":"Die Lizenzen können Sie hier unten anschauen",
+    "menu_title":"Menu",
+    "menu_documents":"Dokumente",
+    "menu_help":"Hilfe",
+    "menu_about":"Info",
+    "languagename_latin":"Latein",
+    "languagename_arab":"Arabisch",
+    "parse_error_message":"Das Zeichen '{letter}' konnte nicht interpretiert werden",
+    "documents_title":"Dokumente/Mehrzeiliger Text",
+    "documents_sub_title":"Laden oder speichern Sie PDF-Dokumente oder reine Textdokumente.",
+    "documents_input_hint":"Schreiben Sie hier Ihren Text oder laden Sie ein Dokument",
+    "swap_languages":"Sprachen tauschen",
+    "convert":"Konvertieren",
+    "delete":"Löschen",
+    "save_file":"Speichern",
+    "choose_save_file": "Wählen Sie eine reine Text-Datei zum Speichern",
+    "canceled_save":"Speichern abgebrochen",
+    "failed_save":"Speichern fehlgeschlagen",
+    "save_not_supported":"Leider ist das auf ihrer Plattform nicht unterstützt",
+    "load_file":"Dokument laden",
+    "choose_load_file": "Wählen Sie ein PDF oder reines Text-Dokument",
+    "failed_load":"Laden fehlgeschlagen"
+
+}

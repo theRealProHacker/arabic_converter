@@ -1,0 +1,34 @@
+{
+    "app_title":"Arabic Converter",
+    "@app_title":{
+        "description":"The app's title"
+    },
+    "about_text1":"Arabic Converter is a tool to help you write Arabic.", 
+    "@about_text1":{
+        "description":"The first line of the about section"
+    },
+    "about_text2":"Help can be found in the menu under help or on Github",
+    "about_text3":"See the licenses below. ",
+    "menu_title":"Menu",
+    "menu_documents":"Documents",
+    "menu_help":"Help",
+    "menu_about":"About",
+    "languagename_latin":"Latin",
+    "languagename_arab":"Arabic",
+    "parse_error_message":"Couldn't parse letter '{letter}'",
+    "documents_title":"Documents/Multiline Text",
+    "documents_sub_title":"Load and save .pdf or pure text files. This only converts on buttonclick to optimize performance.",
+    "documents_input_hint":"Start writing or load a file",
+    "swap_languages":"Swap Languages",
+    "convert":"Convert",
+    "delete":"Delete",
+    "save_file":"Save file",
+    "choose_save_file":"Choose a pure text file to save to",
+    "canceled_save":"Canceled save",
+    "failed_save":"Failed to save",
+    "save_not_supported":"Unfortunately this is not supported on your platform",
+    "load_file":"Load file",
+    "choose_load_file":"Choose a pdf or a pure text file",
+    "failed_load":"Couldn't load text file"
+
+}
