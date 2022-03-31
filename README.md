@@ -78,3 +78,10 @@ A good example is [Yamli](https://www.yamli.com/arabic-keyboard/)
 [Google Translate](https://translate.google.de/?sl=ar&tl=en&op=translate) supports any of the above and as a special side gift it also translates your text.
 
 ![Google Translate Screenshot](./readme_images/google_translate.jpeg)
+
+## Known Issues
+1. Some l10n issues in German mode with the languages on the front page (they stay English)
+2. At least on web (and maybe also on phones) saving and loading doesn't work properly.
+  - The save naming is `language_name` but it should be `language_name`.txt
+  - Web upload doesn't work properly
+3. Also PDF doesn't work yet because of the font. We could for example use Arial instead of Lateef (any font without opentype features will work) (suggestions welcome)
