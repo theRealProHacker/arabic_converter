@@ -56,13 +56,13 @@ If you need to split two letters like `t` and `h`, use an underscore `t_h`
   . `ؤ` is `w'`
 4. Numbers will automatically be detected but if you want a single hamza or 3ayn prefix it with `_`. Like so:
   `_3 3 -> ع ٣`
-5. ~~Not supported is `ٱ`.~~ Use an Alif followed by a sukun eg: `ao`
+5. `ٱ`. Use an Alif followed by a sukun eg: `ao`
 6. The `ta marbuta` is written as an h with two dots ~~on top~~ at the side: `h:` -> `ة`
 
 ## Alternatives
 
 ### An arabic keyboard
-You can either buy a physical arabic keyboard or use a digital
+You can either buy a physical arabic keyboard or use a digital keyboard
 
 ![Arabic keyboard](./readme_images/keyboard.png)
 
