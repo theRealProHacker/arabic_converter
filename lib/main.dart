@@ -21,25 +21,27 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      onGenerateTitle: (context) { 
-        return AppLocalizations.of(context)?.app_title ?? "Evase Error"; // ignore: undefined_identifier
+      onGenerateTitle: (context) {
+        return AppLocalizations.of(context)?.app_title ??
+            "Evase Error"; // ignore: undefined_identifier
       },
-      theme: ThemeData(fontFamily: "Lateef", textTheme: Theme.of(context).textTheme.apply(fontSizeDelta: 4)),
+      theme: ThemeData(
+          fontFamily: "Lateef",
+          textTheme: Theme.of(context).textTheme.apply(fontSizeDelta: 4)),
       localizationsDelegates: const [
-        AppLocalizations.delegate, 
+        AppLocalizations.delegate,
         GlobalMaterialLocalizations.delegate,
         GlobalWidgetsLocalizations.delegate,
         GlobalCupertinoLocalizations.delegate
       ],
       supportedLocales: const [
-        Locale("en",""),
-        Locale("de",""),
+        Locale("en", ""),
+        Locale("de", ""),
       ],
       routes: {
-        "/": (context)=> const HomePage(),
-        "/documents": (context)=>const DocumentsPage(),
+        "/": (context) => const HomePage(),
+        "/documents": (context) => const DocumentsPage(),
       },
     );
   }
 }
-
